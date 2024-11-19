@@ -1,0 +1,17 @@
+name: usingpackages
+description: A sample command-line application.
+version: 1.0.0
+# repository: https://github.com/my_org/my_repo
+
+environment:
+  sdk: ^3.1.2
+
+
+dependencies:
+  expressions: ^0.2.5
+  my_package:
+    path: Y:\HDSE II\Dart\Application\Package\my_package
+
+dev_dependencies:
+  lints: ^2.0.0
+  test: ^1.21.0
